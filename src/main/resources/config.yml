@@ -1,0 +1,35 @@
+# ChopTree 2
+# ReWritten by ellbristow
+#
+# Configuration File
+#
+# ActiveByDefault: Do new players given choptree.chop 'POP' trees by default?
+#
+# UseAnything: Can a player use anything to 'POP' trees (rather than just an axe)?
+#
+# AllowedTools: If UseAnything is false, what tools can be used (separated with commas, NO SPACES)?
+#
+# MoreDamageToTools: Do tools take the amount of damage they WOULD if they chopped the whole tree?
+#
+# InterruptIfToolBreaks: If the tool does not have enough durability to 'POP' the whole tree, should the 'POP' be stopped?
+#
+# LogsMoveDown: Are all item drops dropped by the chopped log (rather than by each 'POP'ed log)?
+#
+# OnlyTrees: Does the 'POP' only work if the player chopped a tree (rather than ANY pile of logs)?
+#
+# PopLeaves: Leaves are 'POP'ed when the tree 'POP's
+#
+# MatchLogType: Only logs and leaves that match the log type of the first log broken will pop
+#
+# LeafRadius: How far out should leaves be popped from each log block
+
+ActiveByDefault: true
+UseAnything: false
+AllowedTools: WOODEN_AXE,STONE_AXE,IRON_AXE,GOLDEN_AXE,DIAMOND_AXE,NETHERITE_AXE
+MoreDamgeToTools: false
+InterruptIfToolBreaks: false
+LogsMoveDown: false
+OnlyTrees: true
+PopLeaves: false
+MatchLogType: false
+LeafRadius: 3
